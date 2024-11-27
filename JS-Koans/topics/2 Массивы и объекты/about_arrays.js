@@ -1,8 +1,8 @@
 describe("About Arrays (about_arrays.js)", function() {
   it("array literal syntax and indexing", function() {
     let emptyArray = [];
-    expect(typeof(emptyArray)).toBe(FILL_ME_IN); //A mistake? - http://javascript.crockford.com/remedial.html
-    expect(emptyArray.length).toBe(FILL_ME_IN);
+    expect(typeof(emptyArray)).toBe('object'); //A mistake? - http://javascript.crockford.com/remedial.html
+    expect(emptyArray.length).toBe(0);
 
     let multiTypeArray = [0, 1, "two", function () { return 3; }, {value1: 4, value2: 5}, [6, 7]];
     expect(multiTypeArray[0]).toBe(FILL_ME_IN);
