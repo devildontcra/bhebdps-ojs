@@ -5,6 +5,7 @@ let lost = document.getElementById("lost")
 
 
 while (i <= 9){
+    console.log(i)
     document.getElementById(`hole${i}`).addEventListener("click" , (event)=> {
         let element = event.target
         if (element.classList != 'hole') {
